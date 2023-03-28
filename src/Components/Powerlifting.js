@@ -1,7 +1,14 @@
+import Bench from '../Images/bench.png';
+import Squat from '../Images/squat.png';
+import Deadlift from '../Images/deadlift.png';
+
 export default function Powerlifting() {
   return (
     <div id="powerlifting-container">
       <div className="tablet" id="powerlifting-tablet" data-aos="flip-up" >
+        <img src={Bench} alt="me bench pressing" className="powerlifting-photo" id="bench" />
+        <img src={Squat} alt="me squatting" className="powerlifting-photo" id="squat" />
+        <img src={Deadlift} alt="me deadlifting" className="powerlifting-photo" id="deadlift"/>
       </div>
       <div data-aos="fade-right" data-aos-duration="700">
         <h2 className="tablet-header" id="powerlifting-title">

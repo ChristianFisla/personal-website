@@ -1,7 +1,18 @@
+import ZiLogo from '../Images/zilogo.png';
+import YTDash from '../Images/ytdash.png';
+import Thumbnail1 from '../Images/thumbnail1.png';
+import Thumbnail2 from '../Images/thumbnail2.png';
+import Thumbnail3 from '../Images/thumbnail3.png';
+
 export default function Zinvestor() {
   return (
     <div id="zinvestor-container">
       <div className="tablet" id="zinvestor-tablet" data-aos="flip-up" >
+        <img src={ZiLogo} alt="zinvestor logo" id="zinvestor-logo-tablet" />
+        <img src={YTDash} alt="zinvestor youtube dashboard" id="zinvestor-dash" />
+        <img src={Thumbnail1} alt="zinvestor thumbnail" className="zinvestor-thumbnail" id="zinvestor-thumbnail1" />
+        <img src={Thumbnail2} alt="zinvestor thumbnail" className="zinvestor-thumbnail" id="zinvestor-thumbnail2" />
+        <img src={Thumbnail3} alt="zinvestor thumbnail" className="zinvestor-thumbnail" id="zinvestor-thumbnail3" />
       </div>
       <div data-aos="fade-left" data-aos-duration="700">
         <h2 className="tablet-header" id="zinvestor-title">

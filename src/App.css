@@ -4,11 +4,9 @@
 html {
   overflow-x: hidden;
 
-  background-color: #030407;
-  /* background: linear-gradient(-45deg, #f23c3c, #a5385d, #453385, #08309f); */
+  background-color: #1f25af;
   background-size: 400% 400%;
-  /* animation: gradient 15s ease infinite; */
-  height: 450vh;
+  height: 415vh;
 }
 
 h1 {
@@ -18,6 +16,17 @@ h1 {
   font-size: 80px;
   margin: 0;
   text-shadow: 4px 4px 8px rgb(171, 171, 171);
+}
+
+#click-pdf {
+  color: white;
+}
+
+#click-pdf:hover {
+  color: rgb(193, 193, 193);
+}
+
+#resume-text {
 }
 
 .tablet-header {
@@ -71,7 +80,31 @@ h1 {
   width: 50%;
 }
 
+#contact-container {
+  position: absolute;
+  top: 375%;
+  width: 100%;
+  height: 40%;
+}
+
+#contact {
+  left: 5%;
+}
+
+.contact-info {
+  position: relative;
+  top: 50%;
+  left: 7%;
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
+  font-family: 'Inter';
+  color: white;
+}
+
+h3 {
   font-family: 'Inter';
   color: white;
 }
@@ -257,4 +290,111 @@ ul {
   font-family: 'Belleza';
   font-size: x-large;
   left: 31%;
+}
+
+/* POWERLIFTING PHOTOS */
+.powerlifting-photo {
+  border-radius: 10%;
+}
+
+#bench {
+  position: absolute;
+  z-index: 80;
+  width: 55%;
+  height: 40%;
+  bottom: 0%;
+  left: 0%;
+}
+
+#squat {
+  position: absolute;
+  width: 57.5%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+}
+
+#deadlift {
+  position: absolute;
+  width: 45.5%;
+  height: 72%;
+}
+
+/* Z INVESTOR PHOTOS */
+.zinvestor-thumbnail {
+  position: absolute;
+  width: 45%;
+  height: 28%;
+}
+
+#zinvestor-logo-tablet {
+  position: absolute;
+  border-radius: 10%;
+  top: 5%;
+  left: 5%;
+  width: 30%;
+  height: 30%;
+}
+
+#zinvestor-dash {
+  position: absolute;
+  transform: rotate(12.5deg);
+  top: 15%;
+  right: 6%;
+  width: 55%;
+  height: 22.5%;
+  box-shadow: 10px 10px solid black;
+}
+
+#zinvestor-thumbnail1 {
+  top: 45%;
+  left: 17.5%;
+}
+
+#zinvestor-thumbnail2 {
+  top: 55%;
+  left: 27.5%;
+}
+
+#zinvestor-thumbnail3 {
+  top: 65%;
+  left: 37.5%;
+}
+
+/* PROGRAMMING PHOTOS */
+.programming-photo {
+  position: absolute;
+  border-radius: 10%;
+}
+
+#title-screen {
+  z-index: 80;
+  height: 55%;
+  width: 50%;
+}
+
+#gameplay-image {
+  z-index: 80;
+  right: 0%;
+  height: 55%;
+  width: 50%;
+}
+
+#text-reader {
+  bottom: 0%;
+  height: 60%;
+  width: 100%;
+}
+
+#scroll {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  transform: rotate(10deg);
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
